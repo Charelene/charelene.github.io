@@ -12,13 +12,18 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!" class="blue-text">Gallery</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">two</a></li>
+        <li><a href="#!">three</a></li>
+    </ul>
   <nav class="blue" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="index.html" class="brand-logo white-text waves-light"><i class="material-icons left">home</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#" class="white-text"><i class="material-icons left">style</i>UI styles</a></li>
-        <li><a href="#" class="white-text"><i class="material-icons left">photo_camera</i>Photography</a></li>
-        <li><a href="#" class="white-text"><i class="material-icons left">palette</i>Arts</a></li>
+        <li><a href="#!" class="white-text dropdown-button" data-activates="dropdown1"><i class="material-icons left">photo_album</i>Gallery</a></li>
+        <li><a href="contact.html" class="white-text"><i class="material-icons left">email</i>Contact</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -35,8 +40,7 @@
       <li><a class="btn-floating vk waves-effect waves-light" href="https://vk.com/charelene"><i class="fa fa-vk"></i></a></li>
       <li><a class="btn-floating twitter waves-effect waves-light" href="https://twitter.com/charelene_"><i class="fa fa-twitter"></i></a></li>
       <li><a class="btn-floating facebook waves-effect waves-light" href="https://www.facebook.com/thecharelene"><i class="fa fa-facebook"></i></a></li>
-      <li><a class="btn-floating waves-effect waves-light instagram" href="https://www.instagram.com/the_charelene/"><i class="fa fa-instagram"></i></a></li>
-      <li><a class="btn-floating waves-effect waves-light spotify" href="https://play.spotify.com/user/charelene_"><i class="fa fa-spotify"></i></a></li>
+      <li><a class="btn-floating red waves-effect waves-light tooltipped" data-position="left" data-delay="200" data-tooltip="More contacts"><i class="material-icons">more_vert</i></a></li>
     </ul>
   </div>
   <div id="index-banner" class="parallax-container">
@@ -48,29 +52,21 @@
           <h5 class="header col s12 light">A website of Andrew Korablin</h5>
         </div>
         <div class="row center">
-          <a href="" id="download-button" class="btn-large tooltipped waves-effect waves-light blue lighten-1" data-position="bottom" data-delay="50" data-tooltip="C'mon, do it!"><i class="material-icons right">mood</i>Check out my portfolio!</a>
+          <a href="" id="download-button" class="btn-large tooltipped waves-effect waves-light blue lighten-1" data-position="bottom" data-delay="50" data-tooltip="C'mon, do it!"><i class="material-icons right">mood</i>Check out my gallery</a>
         </div>
         <br><br>
 
       </div>
     </div>
     <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
-  </div>    
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col l12 s12">
-                <h3 class="grey-text text-darken-2"><i class="fa fa-rebel"></i>Ah, hello there.</h2>
-                <p class="grey-text">Let the games begin</p>
-            </div>
-        </div>  
-    </div>
+  </div>
+
   <footer class="page-footer blue">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Contact me</h5>
-          <p class="grey-text text-lighten-4">Feel free to write me on any social network listed in the red Floating Action Button (the one that is on the right bottom). Even though VK is the most preferable, I am trying to answer nearly anywhere possible. Hope I interested you, and good luck. :P</p>
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
 
 
         </div>
@@ -96,7 +92,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made with ❤️ by <a class="brown-text text-lighten-3">Andrew Korablin</a>.
+      Made by <a class="brown-text text-lighten-3">noone.</a> Kappa
       </div>
     </div>
   </footer>

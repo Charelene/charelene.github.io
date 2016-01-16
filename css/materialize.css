@@ -3,6 +3,14 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+.spotify {
+  background-color: #2ebd59 !important;
+}
+
+.instagram {
+  background-color: #2a5b83 !important;
+}
+
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important;
 }
